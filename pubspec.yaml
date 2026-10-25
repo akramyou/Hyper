@@ -1,0 +1,34 @@
+name: hyper_dammam3
+description: نظام إدارة مخزون وتواريخ انتهاء الصلاحية للهايبر ماركت - نسخة احترافية
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  image_picker: ^1.0.4
+  google_ml_kit: ^0.11.0
+  intl: ^0.18.1
+  csv: ^5.0.0
+  file_picker: ^6.1.1
+  xlsx: ^2.1.0
+  share_plus: ^7.2.1
+  fl_chart: ^0.66.0
+  pdf: ^3.10.0
+  printing: ^5.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
